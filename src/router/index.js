@@ -23,6 +23,11 @@ const routes = [
     path: '/fade/zoom缩放',
     name: 'zoom缩放',
     component: () => import('../views/fade/zoom缩放.vue')
+  },
+  {
+    path: '/fade/collapse展开折叠',
+    name: 'collapse展开折叠',
+    component: () => import('../views/fade/collapse展开折叠.vue')
   }
 ]
 
